@@ -35,9 +35,9 @@ const logout = () => {
 
         <Banner />
 
-        <div class="min-h-screen bg-gray-100 flex justify-between">
+        <div class="min-h-screen bg-gray-100 flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-0">
             <Nav />
-            <div class="flex justify-center w-full">
+            <div class="flex justify-center w-full lg:py-12">
                 <main class="w-full">
                     <slot />
                 </main>

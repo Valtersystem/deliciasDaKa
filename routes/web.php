@@ -33,3 +33,13 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 });
+
+Route::get('/products', function () {
+    return Inertia::render('Products');
+})->name('products');
+
+Route::get('/new-products', function () {
+    return Inertia::render('NewProducts');
+})->name('new-products');
+
+
