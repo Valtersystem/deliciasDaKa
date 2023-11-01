@@ -38,7 +38,7 @@ const logout = () => {
         <div class="min-h-screen bg-gray-100 flex justify-between">
             <Nav />
             <div class="flex justify-center w-full">
-                <main class="">
+                <main class="w-full">
                     <slot />
                 </main>
             </div>
